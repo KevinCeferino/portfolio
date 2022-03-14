@@ -1,0 +1,57 @@
+$primary_color: #424242
+$dark_white: #dedede
+$dark_gray: #303030
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: Helvetica, sans-serif
+
+.sidebar
+    position: absolute
+    width: 7vw
+    height: 100vh
+    background-color: $primary_color
+    z-index: 2
+    text-align: center
+    a
+        text-decoration: none
+        color: white
+    a:hover
+        color: $dark_white
+    .nav-menu
+        margin: 30vh 0 0 0
+        height: 50vh
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        list-style: none
+
+main
+    position: absolute
+    width: 100vw
+    height: auto
+    z-index: 1
+#home
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100vh
+    .home-title
+        height: 100vh
+        position: absolute
+        display: flex
+        flex-direction: column
+        justify-content: center
+        z-index: 2
+        padding: 0 0 0 14vw
+        color: white
+        h1
+            font-size: 5em
+    .particles-js-canvas-el
+        position: absolute
+        top: 0
+        background-color: $dark_gray
+        z-index: 1

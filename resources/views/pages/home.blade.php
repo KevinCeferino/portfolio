@@ -1,5 +1,5 @@
 @extends('layout')
-@section('title', 'Inicio - Kevin Ceferino')
+@section('title', 'Home - Kevin Ceferino')
 @section('content')
     <section id="bg-home">
         <div class="home-title">

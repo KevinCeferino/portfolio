@@ -16,9 +16,12 @@
 .sidebar a {
   text-decoration: none;
   color: white;
+  transition: font-size 0.2s, text-shadow 1s, color 0.2s;
 }
 .sidebar a:hover {
   color: #dedede;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 25px white;
 }
 .sidebar .nav-menu {
   margin: 30vh 0 0 0;
@@ -36,14 +39,14 @@ main {
   z-index: 1;
 }
 
-#home {
+#bg-home {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100vh;
 }
-#home .home-title {
+#bg-home .home-title {
   height: 100vh;
   position: absolute;
   display: flex;
@@ -53,10 +56,10 @@ main {
   padding: 0 0 0 14vw;
   color: white;
 }
-#home .home-title h1 {
+#bg-home .home-title h1 {
   font-size: 5em;
 }
-#home .particles-js-canvas-el {
+#bg-home .particles-js-canvas-el {
   position: absolute;
   top: 0;
   background-color: #303030;

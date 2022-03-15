@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var particles_js_particles__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(particles_js_particles__WEBPACK_IMPORTED_MODULE_0__);
 
 var particlesJS = window.particlesJS;
-particlesJS.load('home', 'json/particlesjs-config.json', function () {
+particlesJS.load('bg-home', 'json/particlesjs-config.json', function () {
   console.log('callback - particles-js config loaded');
 });
 
